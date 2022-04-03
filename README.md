@@ -12,21 +12,12 @@
 그러나 쇼핑몰에서 옷을 사거나 밥을 먹는 등 비장애인이라면 당연하게 느껴지는 일상들을 그들은 쉽게 경험할 엄두를 내지 못 한다.
 <br> 그런 사람들을 위해 쉽게 사용할 수 있는 보조 도구 개발을 계획하였다.
 
-- GitHub Pages 리파지토리 Settings > Options > GitHub Pages 
-  - Source를 marster branch
-  - Theme Chooser에서 태마선택
-  - 수정후 팀페이지 확인하여 점검.
 
+## 프로젝트 소개
 
+### 프로젝트 구성도
 
-**예시)** 2020년 0조  https://kookmin-sw.github.io/capstone-2020-0/
-
-
-## 내용에 아래와 같은 내용들을 추가하세요.
-
-### 1. 프로잭트 소개
-
-프로젝트
+<img src = https://github.com/Pyowoojin/capstone-2022-41/blob/master/%EA%B5%AC%EC%A1%B0.PNG width="750" height = "550"></img>
 
 ### 2. 소개 영상
 
