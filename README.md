@@ -13,7 +13,7 @@
 
 ### 1. 프로젝트 구성도
 
-<img src = https://github.com/Pyowoojin/capstone-2022-41/blob/master/%EA%B5%AC%EC%A1%B0.PNG width="430" height = "300"></img>
+<img src = https://github.com/Pyowoojin/capstone-2022-41/blob/master/%EA%B5%AC%EC%A1%B0.PNG width="580" height = "450"></img>
 
 ### 2. 주요 기능
 
@@ -23,7 +23,20 @@
 2) 비상 전화 핫라인
 - 비상 상황 발생 시 아두이노의 버튼을 누르면 자동으로 복합 센터 내 고객 센터 연결 혹은 112, 119로 연결시켜준다.
 
-### 2. 팀 소개
+3) 쇼핑몰 내 점포 추천 기능
+- 쇼핑몰 내 입점한 점포 중 사용자가 선택한 카테고리(음식점, 옷가게 등)의 점포를 추천하여준다.
+
+### 3. 사용법
+
+- 추후 작성 예정
+
+## 3-1) 사용 예시
+
+
+<img src = https://github.com/Pyowoojin/capstone-2022-41/blob/master/%EC%9E%91%EB%8F%99%EB%B0%A9%EC%8B%9D3.PNG width="800" height = "400"></img>
+
+
+### 4. 팀 소개
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
 이름 : 표우진(팀장)
 학번: 20185291
@@ -52,9 +65,6 @@
 파트: 아두이노, RFID
 </code></pre></div></div>
 
-### 3. 사용법
-
-소스코드제출시 설치법이나 사용법을 작성하세요.
 
 ### 5. 기타
 
