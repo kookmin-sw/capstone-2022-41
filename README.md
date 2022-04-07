@@ -5,15 +5,23 @@
 
 ## 프로젝트 소개
 
-<img src=https://github.com/Pyowoojin/capstone-2022-41/blob/master/KakaoTalk_20220406_140720450_02.png width="450" height="400"></img>
+<img src=https://github.com/Pyowoojin/capstone-2022-41/blob/master/KakaoTalk_20220406_140720450_02.png width="380" height="350"></img>
 ### 시각 장애인들을 위한 상생 프로젝트
 장애인들도 분명한 우리 사회의 구성원이다.
 그러나 쇼핑몰에서 옷을 사거나 밥을 먹는 등 비장애인이라면 당연하게 느껴지는 일상들을 그들은 쉽게 경험할 엄두조차 내지 못 한다.
-<br> 그런 사람들을 위해 쉽게 사용할 수 있는 보조 도구 개발을 계획하였다.
+<br> 그런 사람들을 위해 복합 쇼핑몰에서 쉽게 사용할 수 있는 길 찾기 및 안내 보조 도구 개발을 계획하였다.
 
 ### 1. 프로젝트 구성도
 
 <img src = https://github.com/Pyowoojin/capstone-2022-41/blob/master/%EA%B5%AC%EC%A1%B0.PNG width="430" height = "300"></img>
+
+### 2. 주요 기능
+
+1) 실내 길찾기 및 안내
+- 어플리케이션을 이용해 음성으로 목적지를 입력하면 길을 찾아주고 안내를 시작한다.
+
+2) 비상 전화 핫라인
+- 비상 상황 발생 시 아두이노의 버튼을 누르면 자동으로 복합 센터 내 고객 센터 연결 혹은 112, 119로 연결시켜준다.
 
 ### 2. 팀 소개
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
