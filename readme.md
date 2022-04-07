@@ -4,7 +4,7 @@
 
 ## 프로젝트 소개
 
-<img src=https://user-images.githubusercontent.com/66067291/162281822-2edf22bc-b2eb-4ecf-a01c-37ee5404bae5.png" height="350">
+<img src=https://user-images.githubusercontent.com/66067291/162281822-2edf22bc-b2eb-4ecf-a01c-37ee5404bae5.png height="350">
 ### 시각 장애인들을 위한 상생 프로젝트
 장애인들도 분명한 우리 사회의 구성원이다.
 그러나 쇼핑몰에서 옷을 사거나 밥을 먹는 등 비장애인이라면 당연하게 느껴지는 일상들을 그들은 쉽게 경험할 엄두조차 내지 못 한다.
