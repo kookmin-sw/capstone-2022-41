@@ -13,7 +13,7 @@
 
 ### 1. 프로젝트 구성도
 
-<img src = https://github.com/Pyowoojin/capstone-2022-41/blob/master/%EA%B5%AC%EC%A1%B0.PNG width="580" height = "450"></img>
+<img src = https://github.com/Pyowoojin/capstone-2022-41/blob/master/%EA%B5%AC%EC%A1%B0.PNG width="580" height = "450">
 
 ### 2. 주요 기능
 
