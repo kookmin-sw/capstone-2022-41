@@ -5,8 +5,7 @@
 
 ## 프로젝트 소개
 
-<img src=https://github.com/Pyowoojin/capstone-2022-41/blob/master/KakaoTalk_20220406_140720450_02.png width="380" height="350"></img>
-![1](https://github.com/Pyowoojin/capstone-2022-41/blob/master/KakaoTalk_20220406_140720450_02.png)
+<img src=https://github.com/Pyowoojin/capstone-2022-41/blob/master/KakaoTalk_20220406_140720450_02.png width="380" height="350">
 ### 시각 장애인들을 위한 상생 프로젝트
 장애인들도 분명한 우리 사회의 구성원이다.
 그러나 쇼핑몰에서 옷을 사거나 밥을 먹는 등 비장애인이라면 당연하게 느껴지는 일상들을 그들은 쉽게 경험할 엄두조차 내지 못 한다.
@@ -34,7 +33,7 @@
 ## 3-1) 사용 예시
 
 
-<img src = https://github.com/Pyowoojin/capstone-2022-41/blob/master/%EC%9E%91%EB%8F%99%EB%B0%A9%EC%8B%9D3.PNG width="800" height = "400"></img>
+<img src = https://github.com/Pyowoojin/capstone-2022-41/blob/master/%EC%9E%91%EB%8F%99%EB%B0%A9%EC%8B%9D3.PNG width="800" height = "400">
 
 
 ### 4. 팀 소개
