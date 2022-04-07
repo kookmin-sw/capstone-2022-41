@@ -13,7 +13,7 @@
 
 ### 1. 프로젝트 구성도
 
-<img src = https://github.com/Pyowoojin/capstone-2022-41/blob/master/%EA%B5%AC%EC%A1%B0.PNG width="550" height = "370"></img>
+<img src = https://github.com/Pyowoojin/capstone-2022-41/blob/master/%EA%B5%AC%EC%A1%B0.PNG width="430" height = "300"></img>
 
 ### 2. 팀 소개
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
