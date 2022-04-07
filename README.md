@@ -37,33 +37,33 @@
 
 
 ### 4. 팀 소개
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+```
 이름 : 표우진(팀장)
 학번: 20185291
 이메일: 20185291@kookmin.ac.kr
 파트: DB 구축, 서버 개발
-</code></pre></div></div>
+```
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+```
 이름 : 권다은
 학번: 20181576
 이메일: 20181576@kookmin.ac.kr
 파트: 아두이노, RFID
-</code></pre></div></div>
+```
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+```
 이름 : 김현주
 학번: 20185284
 이메일: 20185284@kookmin.ac.kr
 파트: UX/UI, 안드로이드 개발
-</code></pre></div></div>
+```
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+```
 이름 : 박수경
 학번: 20185181
 이메일: 20185181@kookmin.ac.kr
 파트: 아두이노, RFID
-</code></pre></div></div>
+```
 
 
 ### 5. 기타
