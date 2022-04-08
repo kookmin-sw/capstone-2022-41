@@ -46,21 +46,21 @@
 ```
 이름 : 권다은
 학번: 20181576
-이메일: 20181576@kookmin.ac.kr
+이메일: kundaeun18@kookmin.ac.kr
 파트: 아두이노, RFID
 ```
 
 ```
 이름 : 김현주
 학번: 20185284
-이메일: 20185284@kookmin.ac.kr
+이메일: hyunju99@kookmin.ac.kr
 파트: UX/UI, 안드로이드 개발
 ```
 
 ```
 이름 : 박수경
 학번: 20185181
-이메일: 20185181@kookmin.ac.kr
+이메일: ktnrud123@kookmin.ac.kr
 파트: 아두이노, RFID
 ```
 
