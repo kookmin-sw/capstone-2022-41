@@ -90,9 +90,9 @@ while(finish) {
     finish = route[finish];
 }
 
-/*for(let i = path.length-2; i>=0; i--){
+for(let i = path.length-2; i>=0; i--){
     process.stdout.write(path[i] + " ");
-}*/
+}
 
 var abcd = 123;
 console.log(abcd);
