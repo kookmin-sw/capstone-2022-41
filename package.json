@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "priority-queue-node": "^1.0.2",
+    "priorityqueuejs": "^2.0.0"
+  }
+}
