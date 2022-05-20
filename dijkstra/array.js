@@ -1,19 +1,11 @@
 var fs = require('fs');
-const pq = require('priorityqueuejs');
 const file = '../nodeInfo/testdata2.txt';
 
-// 우선순위 큐
-var pqq = new pq((a, b)=> {
-    return b.cost - a.cost;
-	// b-a면 제일 작은 게 위로 올라온다.
-});
+
 
 // 거리 값 저장을 위한 Array
 var dist = [];
-var start = 1;
-var finish = 4;
 var route = [];
-var path = [];
 
 var array = fs.readFileSync(file).toString().split("\n");
 // C++의 vector <pair<int, int>> 선언 후 값 저장과 동일
@@ -54,50 +46,7 @@ function init(){
 // Return값 저장
 var te = init();
 
-// Dijkstra 알고리즘 정의
-function dijkstra(te, start){
-    dist[start] = 0;
-    pqq.enq({cost : 0, city : start});
-
-    while(!pqq.isEmpty()){
-        let current_temp = pqq.peek();
-        let current_cost = current_temp.cost;
-        let current_city = current_temp.city;
-        pqq.deq();
-
-        if(dist[current_city] < current_cost){
-            continue;
-        }
-
-        for(let i = 1; i < te[current_city].length; i++){
-            // console.log("시티 사이즈 : "+ te[current_city].length);
-            let next_city = te[current_city][i].city;
-            let next_cost = te[current_city][i].cost + current_cost;
-
-            if(Number(next_cost) < Number(dist[next_city])){
-                dist[next_city] = next_cost;
-                pqq.enq({cost : next_cost, city : next_city});
-                route[next_city] = current_city;
-            }
-        }
-    }
-}
-
-dijkstra(te, start);
-
-while(finish) {
-    path.push(finish);
-    finish = route[finish];
-}
-
-for(let i = path.length-2; i>=0; i--){
-    process.stdout.write(path[i] + " ");
-}
-
-var abcd = 123;
-console.log(abcd);
-
 
 module.exports = {
-    te, abcd, route
+    te, route, dist
 }
