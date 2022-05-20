@@ -6,13 +6,13 @@ var start = 1;
 var finish = 4;
 
 
-// 우선순위 큐
+// Javascript Priority Queue
 var pqq = new pq((a, b)=> {
     return b.cost - a.cost;
 	// b-a면 제일 작은 게 위로 올라온다.
 });
 
-// Dijkstra 알고리즘 정의
+// Dijkstra Algorithm
 function dijkstra(te, start){
     arr.dist[start] = 0;
     pqq.enq({cost : 0, city : start});
@@ -28,7 +28,6 @@ function dijkstra(te, start){
         }
 
         for(let i = 1; i < te[current_city].length; i++){
-            // console.log("시티 사이즈 : "+ te[current_city].length);
             let next_city = te[current_city][i].city;
             let next_cost = te[current_city][i].cost + current_cost;
 
@@ -41,6 +40,7 @@ function dijkstra(te, start){
     }
 }
 
+// 다익스트라 실행 -> Start 다른데서 참조 받아야함
 dijkstra(arr.te, start);
 
 // 경로 저장 코드
