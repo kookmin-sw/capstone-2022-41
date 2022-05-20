@@ -9,7 +9,7 @@ var pqq = new pq((a, b)=> {
 });
 
 // 거리 값 저장을 위한 Array
-var dist = []
+var dist = [];
 var start = 1;
 var finish = 4;
 var route = [];
