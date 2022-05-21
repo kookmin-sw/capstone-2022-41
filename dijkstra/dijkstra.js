@@ -52,5 +52,3 @@ while(finish) {
 for(let i = path.length-2; i>=0; i--){
     process.stdout.write(path[i] + " ");
 }
-
-console.log('testest');

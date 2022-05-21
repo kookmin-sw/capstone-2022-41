@@ -1,5 +1,7 @@
 {
   "dependencies": {
+    "express": "^4.18.1",
+    "mongoose": "^6.3.4",
     "priority-queue-node": "^1.0.2",
     "priorityqueuejs": "^2.0.0"
   }
