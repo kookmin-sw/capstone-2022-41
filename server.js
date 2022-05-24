@@ -3,11 +3,9 @@ const app = express();
 const port = process.env.PORT || 8082;
 
 const getRouter = require('./routes/get_rfid');
-const postRouter = require('./routes/post_rfid');
 const gettest = require('./routes/test_rfid');
 
 app.use('/id', getRouter);
-app.use('/rfid', postRouter);
 app.use('/test/newtest', gettest);
 
 app.get('/', (req, res)=> {
