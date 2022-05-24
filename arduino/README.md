@@ -1,6 +1,6 @@
 ## arduino file code
-*rfid_blue__.ino : rc522 모듈 사용 코드 (프로젝트 테스트 코드)
-*vm_blue.ino : VM-5GA 모듈 사용 코드 (실제 서비스 제공)
+* rfid_blue__.ino : rc522 모듈 사용 코드 (프로젝트 테스트 코드)
+* vm_blue.ino : VM-5GA 모듈 사용 코드 (실제 서비스 제공)
 ***
 ## arduino module 소개
 1. RC522
