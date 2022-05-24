@@ -5,6 +5,7 @@
 ## 프로젝트 소개
 
 <img src="https://user-images.githubusercontent.com/66067291/162281822-2edf22bc-b2eb-4ecf-a01c-37ee5404bae5.png" height="350">
+<br>
 ### 시각 장애인들을 위한 상생 프로젝트  
 
 <br> 장애인들도 분명한 우리 사회의 구성원이다.
