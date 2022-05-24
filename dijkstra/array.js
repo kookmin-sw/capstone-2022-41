@@ -6,6 +6,7 @@ const file = '../nodeInfo/testdata2.txt';
 // 거리 값 저장을 위한 Array
 var dist = [];
 var route = [];
+var temp = [];
 
 var array = fs.readFileSync(file).toString().split("\n");
 // C++의 vector <pair<int, int>> 선언 후 값 저장과 동일
@@ -31,13 +32,24 @@ function init(){
         // txt 파일 정보들로 dijkstra를 위한 정보 구성
         dist[i] = 99999;
         route[i] = -5;
-        var temp = array[i].toString().split(",");
-        var from = Number(temp[0]);
-        var to = Number(temp[1]);
+
+        temp = array[i].toString().split(",");
+        var tempstr = temp[0] + temp[1] + temp[2];
+        var str1 = tempstr.charCodeAt(0) - 64;
+        var str2 = tempstr.charCodeAt(1) - 64;
+
+        // var from = Number(temp[0]);
+        // var to = Number(temp[1]);
         var costy = Number(temp[2]);
         // A에서 B로 가는 비용 vector에 저장
-        realUsers[from].push({cost : costy, city : to});
-        realUsers[to].push({cost : costy, city : from});
+        realUsers[str1].push({cost : costy, city : str2});
+        realUsers[str2].push({cost : costy, city : str1});
+
+        
+        // realUsers[from].push({cost : costy, city : to});
+        // realUsers[to].push({cost : costy, city : from});
+
+        // 1 = 124, 2 = 154
     };
 
 	return realUsers;
