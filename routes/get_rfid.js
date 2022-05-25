@@ -1,26 +1,39 @@
 const express = require("express");
+const con = require('./post_rfid');
 const db = require('../schemas/rfid');
 const re = require('../schemas/dijk');
 const fs = require('fs');
 const router = express.Router();
 
-var ar;
-var objarr;
 
-// GET / 요청 들어올 때 
+var cnt;
+var info;
 
-// mongodb.js 가보면 내가 db를 nodejs로 연결시켜놨음.
-// rfid.js엔 내가 어떤 collection을 연결할건지 적어놨음
-router.get("/:idnum", (req, res) => {
-    let tag = req.params.idnum;
-        re.find({}, {nodeid : 1, linkedNode : 1, _id : 0}).then(function (okk, err){
-            ar = okk;
-            console.log(okk);
-            res.json(okk);
-            console.log(ar[0].nodeid, ar[0].linkedNode);
-            objarr = Object.keys(ar[1].linkedNode);
-            console.log(objarr.length);
-        });
+router.get("/?", (req, res) => {
+    let tempurl = req.url;
+    let tag1 = req.query.store1;
+    let tag2 = req.query.store2;
+    console.log(tempurl);
+    console.log(tag1, tag2);
+    re.count().then(function(c, err){
+       cnt = c;
+    });
+
+    re.find({}, {nodeid : 1, linkedNode : 1, _id : 0}).then(function (okk, err){
+        info = okk;
+        res.json(okk);
+        // console.log(cnt);
+        for(let j = 0; j<cnt; j++){
+            arr = String(info[j].nodeid);
+            for(let i = 0; i < (Object.keys(info[j].linkedNode)).length; i++){
+                fs.appendFile('./test.txt', arr + ',' + (Object.keys(info[j].linkedNode))[i] + ',' + (Object.values(info[j].linkedNode))[i] + '\n', function(err){
+                    if(err)
+                        throw err;
+                });
+            };
+        };
+        console.log(info[4].nodeid, (Object.keys(info[0].linkedNode)).length);
+    });
 });
 
 module.exports = router;
