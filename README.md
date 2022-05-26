@@ -4,13 +4,23 @@
 
 ## 프로젝트 소개
 
-<img src="https://user-images.githubusercontent.com/66067291/162281822-2edf22bc-b2eb-4ecf-a01c-37ee5404bae5.png" height="350">
+<!-- <img src="https://user-images.githubusercontent.com/66067291/162281822-2edf22bc-b2eb-4ecf-a01c-37ee5404bae5.png" height="350"> -->
 <br>
-### 시각 장애인들을 위한 상생 프로젝트  
+<img src="https://github.com/kookmin-sw/capstone-2022-41/blob/master/img/FHRH.png" height="360">
 
+### 시각 장애인들을 위한 상생 프로젝트  
 <br> 장애인들도 분명한 우리 사회의 구성원이다.
 그러나 쇼핑몰에서 옷을 사거나 밥을 먹는 등 비장애인이라면 당연하게 느껴지는 일상들을 그들은 쉽게 경험할 엄두조차 내지 못 한다.
 <br> 그런 사람들을 위해 복합 쇼핑몰에서 쉽게 사용할 수 있는 길 찾기 및 안내 보조 도구 개발을 계획하였다.
+
+### Abstract
+The name of our project is 'Follow me'
+<br>The project was designed to help the blind people in their lives.<br>
+Using this device, they will be able to find their path in a complex building such as shopping malls, airports and so on. <br>
+We used to RFID, long-range tag reader to develope for this project.
+I hope this project can help them.
+
+##
 
 ### 1. 프로젝트 구성도
 
