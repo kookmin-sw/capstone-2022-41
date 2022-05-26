@@ -81,10 +81,3 @@ I hope this project can help them.
 파트: 아두이노, RFID
 ```
 
-
-### 5. 기타
-
-```markdown
-
-```
-
