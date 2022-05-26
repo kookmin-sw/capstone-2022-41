@@ -43,8 +43,13 @@ I hope this project can help them.
 
 <img src = "https://user-images.githubusercontent.com/66067291/162281939-f659e9e7-60a8-4337-9515-91374506c8f7.PNG" width="800" height = "400">
 
+### 4. 시연 영상
 
-### 4. 팀 소개
+[![Follow_Me](http://img.youtube.com/vi/DO6RWMpqobA/0.jpg)](https://youtu.be/DO6RWMpqobA) 
+
+##
+
+### 5. 팀 소개
 ```
 이름 : 표우진(팀장)
 학번: 20185291
