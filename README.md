@@ -34,12 +34,11 @@ I hope this project can help them.
 2) 비상 전화 핫라인
 - 비상 상황 발생 시 아두이노의 버튼을 누르면 자동으로 복합 센터 내 고객 센터 연결 혹은 112, 119로 연결시켜준다.
 
-### 3. 사용법
+### 3. Use-Case Diagram
 
-- 추후 작성 예정
 
-## 3-1) 사용 예시
 
+## 3-1. 사용 예시
 
 <img src = "https://user-images.githubusercontent.com/66067291/162281939-f659e9e7-60a8-4337-9515-91374506c8f7.PNG" width="800" height = "400">
 
