@@ -10,10 +10,7 @@ app.use('/test/newtest', gettest);
 
 app.get('/', (req, res)=> {
     console.log('who get in root');
-<<<<<<< HEAD
     res.send('/root');
-=======
->>>>>>> 93065986ebb1c4a17b3bd81084ddf63ff88e4d31
 });
 
 app.use((req, res, next) => {
