@@ -1,7 +1,7 @@
 # FollowMe
 
 **Github URL**  https://github.com/kookmin-sw/capstone-2022-41 <br>
-**Team Page URL**  https://kookmin-sw.github.io/capstone-2022-41/
+**Team Page URL**  https://kookmin-sw.github.io/capstone-2022-41
 
 ## 0. 프로젝트 소개
 
