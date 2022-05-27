@@ -6,7 +6,10 @@ const connect = require('../schemas/mongod'); // 수정
 const fs = require('fs');
 const router = express.Router();
 
-
+let users = {
+    "path_arr" : ["맥도날드", "공차", "롯데리아", "옷가게", "김가네"],
+    "direction" : ["r", "r", "s", "l"]
+};
 var cnt;
 var info;
 re.count().then(function(c, err){
@@ -46,7 +49,8 @@ router.get("/?", (req, res) => {
             throw err;
         // 전체 Collection 정보를 담은 Object
         info = okk;
-        res.send(okk);
+        // res.send(okk);
+        res.send(users);
         // Dijkstra 알고리즘 수행을 위한 txt파일 생성
 
         for(let j = 0; j<cnt; j++){
